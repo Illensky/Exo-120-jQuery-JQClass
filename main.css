@@ -1,0 +1,36 @@
+html {
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vh;
+    height: 100vh;
+}
+
+div {
+    width: 17%;
+    height: 17%;
+    border-radius: 100%;
+    border: 1px solid red;
+}
+
+.rect {
+    border-radius: 0;
+}
+
+#center {
+    transform: rotate(45deg);
+}
+
+.full {
+    background-color: red;
+}
+
+.empty {
+    background-color: white;
+}
